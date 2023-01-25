@@ -1,0 +1,23 @@
+{
+  "name": "automacao",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcusboto/automacao.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcusboto/automacao/issues"
+  },
+  "homepage": "https://github.com/marcusboto/automacao#readme",
+  "dependencies": {
+    "puppeteer": "^19.6.0"
+  }
+}
