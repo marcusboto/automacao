@@ -1,5 +1,6 @@
 #from selenium.webdriver.support.wait import WebDriverWait
 from selenium import webdriver
+from selenium.webdriver.common.by import By
 #def document_initialised(navegador):
     #return navegador.execute_script("return initialised")
 navegador = webdriver.Edge()
@@ -7,7 +8,7 @@ navegador.get("https://forms.gle/ssJqxQ81rSkQRPwu5")
 #WebDriverWait(navegador, timeout=1000000).until(document_initialised)
 
 #Loja
-navegador.find_element("xpath",'//*[@id="mG61Hd"]/div[2]/div/div[2]/div[1]/div/div/div[2]/div/div[1]/div/div[1]/input').send_keys("547554000")
+navegador.find_element(By.CSS_SELECTOR,'[aria-labelledby="i1"]').send_keys("547554000")
 #Usuario
 navegador.find_element("xpath",'//*[@id="mG61Hd"]/div[2]/div/div[2]/div[2]/div/div/div[2]/div/div[1]/div/div[1]/input[1]').send_keys("MARCUSV")
 #Senha
@@ -35,13 +36,13 @@ navegador.find_element("xpath", '').click
 
 
 ##Escolher o top (clica na combobox)
-#navegador.find_element("xpath", '').click
+navegador.find_element("xpath", '').click
 ##Escolher o top (clica no item da combobox)
-#navegador.find_element("xpath", '').click
+navegador.find_element("xpath", '').click
 
 
 
 ##Escolher parcela
-#navegador.find_element("xpath", '').click
+navegador.find_element("xpath", '').click
 ##Prosseguir
-#navegador.find_element("xpath", '').click
+navegador.find_element("xpath", '').click
