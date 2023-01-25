@@ -12,6 +12,10 @@ navegador.find_element("xpath",'//*[@id="mG61Hd"]/div[2]/div/div[2]/div[1]/div/d
 navegador.find_element("xpath",'//*[@id="mG61Hd"]/div[2]/div/div[2]/div[2]/div/div/div[2]/div/div[1]/div/div[1]/input[1]').send_keys("MARCUSV")
 #Senha
 navegador.find_element("xpath", '//*[@id="mG61Hd"]/div[2]/div/div[2]/div[3]/div/div/div[2]/div/div[1]/div/div[1]/input').send_keys("Mv.24071")
+#Clica no botão de logar
+navegador.find_element("xpath", '').click
+
+
 #Tipo produto
 navegador.find_element("xpath", '//*[@id="i17"]/div[3]/div').click
 #Tipo pessoa
@@ -24,4 +28,20 @@ navegador.find_element("xpath",'//*[@id="mG61Hd"]/div[2]/div/div[2]/div[7]/div/d
 navegador.find_element("xpath",'//*[@id="mG61Hd"]/div[2]/div/div[2]/div[8]/div/div/div[2]/div/div[1]/div/div[1]/input').send_keys("12000")
 #Data Nacimento
 navegador.find_element("xpath",'//*[@id="mG61Hd"]/div[2]/div/div[2]/div[9]/div/div/div[2]/div/div[1]/div/div[1]/input').send_keys("01011960")
+#Clica no botão de prosseguir
+navegador.find_element("xpath", '').click
 
+
+
+
+##Escolher o top (clica na combobox)
+#navegador.find_element("xpath", '').click
+##Escolher o top (clica no item da combobox)
+#navegador.find_element("xpath", '').click
+
+
+
+##Escolher parcela
+#navegador.find_element("xpath", '').click
+##Prosseguir
+#navegador.find_element("xpath", '').click
